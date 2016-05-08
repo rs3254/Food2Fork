@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78186C671CDFD82F00A6DFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C661CDFD82F00A6DFE5 /* main.m */; };
+		78186C6A1CDFD82F00A6DFE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C691CDFD82F00A6DFE5 /* AppDelegate.m */; };
+		78186C6D1CDFD82F00A6DFE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C6C1CDFD82F00A6DFE5 /* ViewController.m */; };
+		78186C701CDFD82F00A6DFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78186C6E1CDFD82F00A6DFE5 /* Main.storyboard */; };
+		78186C721CDFD82F00A6DFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78186C711CDFD82F00A6DFE5 /* Assets.xcassets */; };
+		78186C751CDFD82F00A6DFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78186C731CDFD82F00A6DFE5 /* LaunchScreen.storyboard */; };
+		78186C801CDFD82F00A6DFE5 /* Food2ForkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C7F1CDFD82F00A6DFE5 /* Food2ForkTests.m */; };
+		78186C8B1CDFD82F00A6DFE5 /* Food2ForkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C8A1CDFD82F00A6DFE5 /* Food2ForkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78186C7C1CDFD82F00A6DFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78186C5A1CDFD82F00A6DFE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78186C611CDFD82F00A6DFE5;
+			remoteInfo = Food2Fork;
+		};
+		78186C871CDFD82F00A6DFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78186C5A1CDFD82F00A6DFE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78186C611CDFD82F00A6DFE5;
+			remoteInfo = Food2Fork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78186C621CDFD82F00A6DFE5 /* Food2Fork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food2Fork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78186C661CDFD82F00A6DFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78186C681CDFD82F00A6DFE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78186C691CDFD82F00A6DFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78186C6B1CDFD82F00A6DFE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78186C6C1CDFD82F00A6DFE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78186C6F1CDFD82F00A6DFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78186C711CDFD82F00A6DFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78186C741CDFD82F00A6DFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78186C761CDFD82F00A6DFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78186C7B1CDFD82F00A6DFE5 /* Food2ForkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78186C7F1CDFD82F00A6DFE5 /* Food2ForkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food2ForkTests.m; sourceTree = "<group>"; };
+		78186C811CDFD82F00A6DFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78186C861CDFD82F00A6DFE5 /* Food2ForkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78186C8A1CDFD82F00A6DFE5 /* Food2ForkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food2ForkUITests.m; sourceTree = "<group>"; };
+		78186C8C1CDFD82F00A6DFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78186C5F1CDFD82F00A6DFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78186C781CDFD82F00A6DFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78186C831CDFD82F00A6DFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78186C591CDFD82F00A6DFE5 = {
+			isa = PBXGroup;
+			children = (
+				78186C641CDFD82F00A6DFE5 /* Food2Fork */,
+				78186C7E1CDFD82F00A6DFE5 /* Food2ForkTests */,
+				78186C891CDFD82F00A6DFE5 /* Food2ForkUITests */,
+				78186C631CDFD82F00A6DFE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78186C631CDFD82F00A6DFE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78186C621CDFD82F00A6DFE5 /* Food2Fork.app */,
+				78186C7B1CDFD82F00A6DFE5 /* Food2ForkTests.xctest */,
+				78186C861CDFD82F00A6DFE5 /* Food2ForkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78186C641CDFD82F00A6DFE5 /* Food2Fork */ = {
+			isa = PBXGroup;
+			children = (
+				78186C681CDFD82F00A6DFE5 /* AppDelegate.h */,
+				78186C691CDFD82F00A6DFE5 /* AppDelegate.m */,
+				78186C6B1CDFD82F00A6DFE5 /* ViewController.h */,
+				78186C6C1CDFD82F00A6DFE5 /* ViewController.m */,
+				78186C6E1CDFD82F00A6DFE5 /* Main.storyboard */,
+				78186C711CDFD82F00A6DFE5 /* Assets.xcassets */,
+				78186C731CDFD82F00A6DFE5 /* LaunchScreen.storyboard */,
+				78186C761CDFD82F00A6DFE5 /* Info.plist */,
+				78186C651CDFD82F00A6DFE5 /* Supporting Files */,
+			);
+			path = Food2Fork;
+			sourceTree = "<group>";
+		};
+		78186C651CDFD82F00A6DFE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78186C661CDFD82F00A6DFE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78186C7E1CDFD82F00A6DFE5 /* Food2ForkTests */ = {
+			isa = PBXGroup;
+			children = (
+				78186C7F1CDFD82F00A6DFE5 /* Food2ForkTests.m */,
+				78186C811CDFD82F00A6DFE5 /* Info.plist */,
+			);
+			path = Food2ForkTests;
+			sourceTree = "<group>";
+		};
+		78186C891CDFD82F00A6DFE5 /* Food2ForkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78186C8A1CDFD82F00A6DFE5 /* Food2ForkUITests.m */,
+				78186C8C1CDFD82F00A6DFE5 /* Info.plist */,
+			);
+			path = Food2ForkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78186C611CDFD82F00A6DFE5 /* Food2Fork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78186C8F1CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2Fork" */;
+			buildPhases = (
+				78186C5E1CDFD82F00A6DFE5 /* Sources */,
+				78186C5F1CDFD82F00A6DFE5 /* Frameworks */,
+				78186C601CDFD82F00A6DFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Food2Fork;
+			productName = Food2Fork;
+			productReference = 78186C621CDFD82F00A6DFE5 /* Food2Fork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78186C7A1CDFD82F00A6DFE5 /* Food2ForkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78186C921CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2ForkTests" */;
+			buildPhases = (
+				78186C771CDFD82F00A6DFE5 /* Sources */,
+				78186C781CDFD82F00A6DFE5 /* Frameworks */,
+				78186C791CDFD82F00A6DFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78186C7D1CDFD82F00A6DFE5 /* PBXTargetDependency */,
+			);
+			name = Food2ForkTests;
+			productName = Food2ForkTests;
+			productReference = 78186C7B1CDFD82F00A6DFE5 /* Food2ForkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78186C851CDFD82F00A6DFE5 /* Food2ForkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78186C951CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */;
+			buildPhases = (
+				78186C821CDFD82F00A6DFE5 /* Sources */,
+				78186C831CDFD82F00A6DFE5 /* Frameworks */,
+				78186C841CDFD82F00A6DFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78186C881CDFD82F00A6DFE5 /* PBXTargetDependency */,
+			);
+			name = Food2ForkUITests;
+			productName = Food2ForkUITests;
+			productReference = 78186C861CDFD82F00A6DFE5 /* Food2ForkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78186C5A1CDFD82F00A6DFE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ray Sabbineni";
+				TargetAttributes = {
+					78186C611CDFD82F00A6DFE5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					78186C7A1CDFD82F00A6DFE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 78186C611CDFD82F00A6DFE5;
+					};
+					78186C851CDFD82F00A6DFE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 78186C611CDFD82F00A6DFE5;
+					};
+				};
+			};
+			buildConfigurationList = 78186C5D1CDFD82F00A6DFE5 /* Build configuration list for PBXProject "Food2Fork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78186C591CDFD82F00A6DFE5;
+			productRefGroup = 78186C631CDFD82F00A6DFE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78186C611CDFD82F00A6DFE5 /* Food2Fork */,
+				78186C7A1CDFD82F00A6DFE5 /* Food2ForkTests */,
+				78186C851CDFD82F00A6DFE5 /* Food2ForkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78186C601CDFD82F00A6DFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78186C751CDFD82F00A6DFE5 /* LaunchScreen.storyboard in Resources */,
+				78186C721CDFD82F00A6DFE5 /* Assets.xcassets in Resources */,
+				78186C701CDFD82F00A6DFE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78186C791CDFD82F00A6DFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78186C841CDFD82F00A6DFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78186C5E1CDFD82F00A6DFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78186C6D1CDFD82F00A6DFE5 /* ViewController.m in Sources */,
+				78186C6A1CDFD82F00A6DFE5 /* AppDelegate.m in Sources */,
+				78186C671CDFD82F00A6DFE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78186C771CDFD82F00A6DFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78186C801CDFD82F00A6DFE5 /* Food2ForkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78186C821CDFD82F00A6DFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78186C8B1CDFD82F00A6DFE5 /* Food2ForkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78186C7D1CDFD82F00A6DFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78186C611CDFD82F00A6DFE5 /* Food2Fork */;
+			targetProxy = 78186C7C1CDFD82F00A6DFE5 /* PBXContainerItemProxy */;
+		};
+		78186C881CDFD82F00A6DFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78186C611CDFD82F00A6DFE5 /* Food2Fork */;
+			targetProxy = 78186C871CDFD82F00A6DFE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78186C6E1CDFD82F00A6DFE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78186C6F1CDFD82F00A6DFE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78186C731CDFD82F00A6DFE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78186C741CDFD82F00A6DFE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78186C8D1CDFD82F00A6DFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78186C8E1CDFD82F00A6DFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78186C901CDFD82F00A6DFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Food2Fork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sabbineni.Food2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78186C911CDFD82F00A6DFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Food2Fork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sabbineni.Food2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78186C931CDFD82F00A6DFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Food2ForkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sabbineni.Food2ForkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food2Fork.app/Food2Fork";
+			};
+			name = Debug;
+		};
+		78186C941CDFD82F00A6DFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Food2ForkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sabbineni.Food2ForkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food2Fork.app/Food2Fork";
+			};
+			name = Release;
+		};
+		78186C961CDFD82F00A6DFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Food2ForkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sabbineni.Food2ForkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food2Fork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		78186C971CDFD82F00A6DFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Food2ForkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sabbineni.Food2ForkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food2Fork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78186C5D1CDFD82F00A6DFE5 /* Build configuration list for PBXProject "Food2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78186C8D1CDFD82F00A6DFE5 /* Debug */,
+				78186C8E1CDFD82F00A6DFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78186C8F1CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78186C901CDFD82F00A6DFE5 /* Debug */,
+				78186C911CDFD82F00A6DFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78186C921CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2ForkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78186C931CDFD82F00A6DFE5 /* Debug */,
+				78186C941CDFD82F00A6DFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78186C951CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78186C961CDFD82F00A6DFE5 /* Debug */,
+				78186C971CDFD82F00A6DFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78186C5A1CDFD82F00A6DFE5 /* Project object */;
+}
