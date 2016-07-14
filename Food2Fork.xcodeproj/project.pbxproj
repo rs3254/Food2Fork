@@ -15,6 +15,9 @@
 		78186C751CDFD82F00A6DFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78186C731CDFD82F00A6DFE5 /* LaunchScreen.storyboard */; };
 		78186C801CDFD82F00A6DFE5 /* Food2ForkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C7F1CDFD82F00A6DFE5 /* Food2ForkTests.m */; };
 		78186C8B1CDFD82F00A6DFE5 /* Food2ForkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C8A1CDFD82F00A6DFE5 /* Food2ForkUITests.m */; };
+		78186C9D1CDFF6CE00A6DFE5 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186C9C1CDFF6CE00A6DFE5 /* CustomCell.m */; };
+		78186CA31CE0006800A6DFE5 /* MealsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186CA21CE0006800A6DFE5 /* MealsData.m */; };
+		78186CA61CE0185900A6DFE5 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78186CA51CE0185900A6DFE5 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		78186C861CDFD82F00A6DFE5 /* Food2ForkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78186C8A1CDFD82F00A6DFE5 /* Food2ForkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food2ForkUITests.m; sourceTree = "<group>"; };
 		78186C8C1CDFD82F00A6DFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78186C9B1CDFF6CE00A6DFE5 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
+		78186C9C1CDFF6CE00A6DFE5 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
+		78186CA11CE0006800A6DFE5 /* MealsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealsData.h; sourceTree = "<group>"; };
+		78186CA21CE0006800A6DFE5 /* MealsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealsData.m; sourceTree = "<group>"; };
+		78186CA41CE0185900A6DFE5 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		78186CA51CE0185900A6DFE5 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +114,13 @@
 				78186C691CDFD82F00A6DFE5 /* AppDelegate.m */,
 				78186C6B1CDFD82F00A6DFE5 /* ViewController.h */,
 				78186C6C1CDFD82F00A6DFE5 /* ViewController.m */,
+				78186C9B1CDFF6CE00A6DFE5 /* CustomCell.h */,
+				78186C9C1CDFF6CE00A6DFE5 /* CustomCell.m */,
+				78186CA11CE0006800A6DFE5 /* MealsData.h */,
+				78186CA21CE0006800A6DFE5 /* MealsData.m */,
 				78186C6E1CDFD82F00A6DFE5 /* Main.storyboard */,
+				78186CA41CE0185900A6DFE5 /* DetailsViewController.h */,
+				78186CA51CE0185900A6DFE5 /* DetailsViewController.m */,
 				78186C711CDFD82F00A6DFE5 /* Assets.xcassets */,
 				78186C731CDFD82F00A6DFE5 /* LaunchScreen.storyboard */,
 				78186C761CDFD82F00A6DFE5 /* Info.plist */,
@@ -271,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				78186C6D1CDFD82F00A6DFE5 /* ViewController.m in Sources */,
+				78186CA31CE0006800A6DFE5 /* MealsData.m in Sources */,
 				78186C6A1CDFD82F00A6DFE5 /* AppDelegate.m in Sources */,
+				78186C9D1CDFF6CE00A6DFE5 /* CustomCell.m in Sources */,
 				78186C671CDFD82F00A6DFE5 /* main.m in Sources */,
+				78186CA61CE0185900A6DFE5 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				78186C911CDFD82F00A6DFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78186C921CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2ForkTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				78186C941CDFD82F00A6DFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78186C951CDFD82F00A6DFE5 /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				78186C971CDFD82F00A6DFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
